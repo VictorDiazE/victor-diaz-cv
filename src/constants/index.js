@@ -178,7 +178,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "Sr. Developer",
     company_name: "Rocket Digital, Barcelona",
     icon: rocket,
     iconBg: "#1e2339",
@@ -224,7 +224,7 @@ const projects = [
   {
     name: "Hanaley",
     description:
-      "Wordpress Web Application using Frontity as framework, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Wordpress Web Application using Frontity as framework that brings travel consultancy to a state-of-the-art level of tech and design and thereby will shape the future of individual and adventure trips.",
     tags: [
       {
         name: "react",
@@ -268,7 +268,7 @@ const projects = [
   {
     name: "Silence",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Silence was born in Barcelona and is dedicated to the design and manufacture of two and three-wheel electric vehicles as well as their batteries. Wordpress Custom theme",
     tags: [
       {
         name: "PHP",
@@ -334,7 +334,7 @@ const projects = [
   {
     name: "Calitec",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Corporate Wordpress theme site offering advise and providing solutions to companies in the agri-food and environmental sector, offering analytical and comprehensive services.",
     tags: [
       {
         name: "PHP",
