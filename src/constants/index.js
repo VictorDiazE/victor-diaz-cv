@@ -306,7 +306,7 @@ const projects = [
       },
     ],
     image: teyder,
-    source_code_link: "https://www.silence.eco/",
+    source_code_link: "https://teyder.com/",
     badge: woocommerce,
   },
   {
@@ -328,7 +328,7 @@ const projects = [
       },
     ],
     image: kibus,
-    source_code_link: "https://www.silence.eco/",
+    source_code_link: "https://www.kibuspetcare.com/",
     badge: wordpress,
   },
   {
@@ -350,7 +350,7 @@ const projects = [
       },
     ],
     image: calitec,
-    source_code_link: "https://www.silence.eco/",
+    source_code_link: "https://laboratoriocalitec.com/",
     badge: wordpress,
   },
 ];
