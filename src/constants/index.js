@@ -242,6 +242,10 @@ const projects = [
         name: "shopify",
         color: "green-text-gradient",
       },
+      {
+        name: "graphql",
+        color: "orange-text-gradient",
+      },
     ],
     image: scalpers,
     source_code_link: "https://scalperscompany.com/",
@@ -272,7 +276,7 @@ const projects = [
   {
     name: "OutletPC",
     description:
-      "Wordpress Web Application using Frontity as framework that brings travel consultancy to a state-of-the-art level of tech and design and thereby will shape the future of individual and adventure trips.",
+      "Dive into a treasure trove of bargain-priced PC parts, pre-built machines, and phone repair magic. Their friendly in-store crew navigates your tech needs, while online deals whisk your desires to your doorstep.",
     tags: [
       {
         name: "react",
@@ -316,7 +320,7 @@ const projects = [
   {
     name: "Win A Dream",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Headless Web Application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
         name: "react",
@@ -382,7 +386,7 @@ const projects = [
   {
     name: "Estilograficas Viena",
     description:
-      "Corporate Wordpress theme site offering advise and providing solutions to companies in the agri-food and environmental sector, offering analytical and comprehensive services.",
+      "Founded in 1929, Barcelona's Estilográficas Viena is a haven for pen aficionados, boasting Spain's largest selection of high-quality fountain pens, writing instruments, and inks.",
     tags: [
       {
         name: "php",
@@ -404,7 +408,7 @@ const projects = [
   {
     name: "La Artesana",
     description:
-      "Elementor website that promotes Kibus Robot that complete recipes with real ingredients and no additives, ready to be introduced into the Kibus robot without any effort.",
+      "Crafting pizzas with passion, from fresh, high-quality ingredients. Savor artisanal pies, crisp & flavorful, or explore their enticing salads & starters. Dine in or enjoy delivery – Castelldefels' pizza perfection awaits.",
     tags: [
       {
         name: "php",
@@ -426,7 +430,7 @@ const projects = [
   {
     name: "4 Doctors",
     description:
-      "Corporate Wordpress theme site offering advise and providing solutions to companies in the agri-food and environmental sector, offering analytical and comprehensive services.",
+      "Corporate Wordpress theme. 4Doctors platform crafts engaging, science-backed educational content in bite-sized formats like video podcasts and escape rooms, targeting medical professionals on a mission to upskill and excel.",
     tags: [
       {
         name: "php",
@@ -470,7 +474,7 @@ const projects = [
   {
     name: "Joaquim Muñoz",
     description:
-      "Corporate Wordpress theme site offering advise and providing solutions to companies in the agri-food and environmental sector, offering analytical and comprehensive services.",
+      "Dr. Joaquim Muñoz, a renowned Barcelona-based plastic surgeon, sculpts confidence through a spectrum of aesthetic and reconstructive procedures. From breast surgery and body contouring to facial rejuvenation and cancer reconstruction.",
     tags: [
       {
         name: "php",
