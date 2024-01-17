@@ -27,14 +27,21 @@ import {
   tesla,
   shopify,
   carrent,
+  outletpc,
   hanaley,
+  scalpers,
+  fourdoctors,
+  viena,
   winadream,
   silence,
+  gobik,
   kibus,
   calitec,
   teyder,
+  laartesana,
   jobit,
   tripguide,
+  joaquim,
   threejs,
   frontity,
   wordpress,
@@ -58,15 +65,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "PHP",
+    title: "React JS",
     icon: web,
   },
   {
-    title: "Javascript",
+    title: "PHP",
     icon: mobile,
   },
   {
-    title: "React JS",
+    title: "Javascript",
     icon: backend,
   },
   {
@@ -105,8 +112,8 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Shopify",
+    icon: shopify,
   },
   {
     name: "Wordrpress",
@@ -136,7 +143,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Wordpress Developer",
+    title: "Wordpress Engineer",
     company_name: "Slice Group, Venezuela",
     icon: slice,
     iconBg: "#FFFFFF",
@@ -150,7 +157,7 @@ const experiences = [
     ],
   },
   {
-    title: "Wordpress Developer & SEO",
+    title: "Software Engineer & SEO",
     company_name: "Agencia Ninja, Barcelona",
     icon: agencianinja,
     iconBg: "#113650",
@@ -164,7 +171,7 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
+    title: "PHP Full Stack Engineer",
     company_name: "Factoria Creativa, Barcelona",
     icon: factoriacreativa,
     iconBg: "#FFFFFF",
@@ -178,16 +185,17 @@ const experiences = [
     ],
   },
   {
-    title: "Sr. Developer",
+    title: "Ecommerce Tech Lead",
     company_name: "Rocket Digital, Barcelona",
     icon: rocket,
     iconBg: "#1e2339",
     date: "Sep 2021 - Present",
     points: [
+      "Lead and delegated tasks for project fulfillment.",
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Developed Headless WordPress sites, themes and plugins from scratch using React, PHP, HTML, SASS.",
-      "Leveraged strong understanding of WordPress core to collaborate with end users on project specifications, strategy and execution to build new WordPress pages and update existing ones",
+      "Developed Headless Shopify and WordPress sites, themes and plugins from scratch using React, PHP, HTML, SASS, Liquid and GraphQL.",
+      "Leveraged strong understanding of Shopify core to collaborate with end users on project specifications, strategy and execution to build new Ecommerces and update existing ones.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -221,6 +229,68 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Scalpers",
+    description:
+      "Wordpress Web Application using Frontity as framework that brings travel consultancy to a state-of-the-art level of tech and design and thereby will shape the future of individual and adventure trips.",
+    tags: [
+      {
+        name: "liquid",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "shopify",
+        color: "green-text-gradient",
+      },
+    ],
+    image: scalpers,
+    source_code_link: "https://scalperscompany.com/",
+    badge: shopify,
+  },
+  {
+    name: "Gobik",
+    description:
+      "Spanish cycling apparel brand dedicated to creating high-performance clothing for the discerning rider. Founded with a passion for the sport and a meticulous focus on quality.",
+    tags: [
+      {
+        name: "liquid",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "shopify",
+        color: "green-text-gradient",
+      },
+      {
+        name: "graphql",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: gobik,
+    source_code_link: "https://gobik.com/",
+    badge: shopify,
+  },
+  {
+    name: "OutletPC",
+    description:
+      "Wordpress Web Application using Frontity as framework that brings travel consultancy to a state-of-the-art level of tech and design and thereby will shape the future of individual and adventure trips.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "shopify",
+        color: "green-text-gradient",
+      },
+      {
+        name: "graphql",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: outletpc,
+    source_code_link: "https://outlet-pc.com/",
+    badge: shopify,
+  },
   {
     name: "Hanaley",
     description:
@@ -271,11 +341,11 @@ const projects = [
       "Silence was born in Barcelona and is dedicated to the design and manufacture of two and three-wheel electric vehicles as well as their batteries. Wordpress Custom theme",
     tags: [
       {
-        name: "PHP",
+        name: "php",
         color: "blue-text-gradient",
       },
       {
-        name: "Wordpress",
+        name: "wordpress",
         color: "green-text-gradient",
       },
       {
@@ -293,11 +363,11 @@ const projects = [
       "Custom Woocommerce site offering a modern and wide range of orthopaedic, sports medicine and mobility aid products with the best materials and guaranteed compliance.",
     tags: [
       {
-        name: "Woocommerce",
+        name: "woocommerce",
         color: "green-text-gradient",
       },
       {
-        name: "PHP",
+        name: "php",
         color: "blue-text-gradient",
       },
       {
@@ -310,16 +380,16 @@ const projects = [
     badge: woocommerce,
   },
   {
-    name: "Kibus Petcare",
+    name: "Estilograficas Viena",
     description:
-      "Elementor website that promotes Kibus Robot that complete recipes with real ingredients and no additives, ready to be introduced into the Kibus robot without any effort.",
+      "Corporate Wordpress theme site offering advise and providing solutions to companies in the agri-food and environmental sector, offering analytical and comprehensive services.",
     tags: [
       {
-        name: "Elementor",
+        name: "php",
         color: "blue-text-gradient",
       },
       {
-        name: "Wordpress",
+        name: "woocommerce",
         color: "green-text-gradient",
       },
       {
@@ -327,8 +397,52 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: kibus,
-    source_code_link: "https://www.kibuspetcare.com/",
+    image: viena,
+    source_code_link: "https://estilograficasviena.com/",
+    badge: woocommerce,
+  },
+  {
+    name: "La Artesana",
+    description:
+      "Elementor website that promotes Kibus Robot that complete recipes with real ingredients and no additives, ready to be introduced into the Kibus robot without any effort.",
+    tags: [
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "woocommerce",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ACF",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: laartesana,
+    source_code_link: "https://laartesanapizzeria.com/",
+    badge: woocommerce,
+  },
+  {
+    name: "4 Doctors",
+    description:
+      "Corporate Wordpress theme site offering advise and providing solutions to companies in the agri-food and environmental sector, offering analytical and comprehensive services.",
+    tags: [
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "wodpress",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ACF",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fourdoctors,
+    source_code_link: "https://4doctors.io/",
     badge: wordpress,
   },
   {
@@ -337,11 +451,11 @@ const projects = [
       "Corporate Wordpress theme site offering advise and providing solutions to companies in the agri-food and environmental sector, offering analytical and comprehensive services.",
     tags: [
       {
-        name: "PHP",
+        name: "php",
         color: "blue-text-gradient",
       },
       {
-        name: "Wordpress",
+        name: "wordpress",
         color: "green-text-gradient",
       },
       {
@@ -351,6 +465,28 @@ const projects = [
     ],
     image: calitec,
     source_code_link: "https://laboratoriocalitec.com/",
+    badge: wordpress,
+  },
+  {
+    name: "Joaquim Muñoz",
+    description:
+      "Corporate Wordpress theme site offering advise and providing solutions to companies in the agri-food and environmental sector, offering analytical and comprehensive services.",
+    tags: [
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "wordpress",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ACF",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: joaquim,
+    source_code_link: "https://joaquimmunoz.com/",
     badge: wordpress,
   },
 ];

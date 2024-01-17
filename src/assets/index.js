@@ -38,9 +38,16 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import hanaley from "./hanaley.png";
+import gobik from "./gobik.png";
+import scalpers from "./scalpers.png";
+import viena from "./viena.png";
+import fourdoctors from "./4doctors.png";
+import laartesana from "./laartesana.png";
 import winadream from "./winadream.png";
 import silence from "./silence.png";
+import outletpc from "./outletpc.png";
 import kibus from "./kibus.png";
+import joaquim from "./joaquim.png";
 import calitec from "./calitec.png";
 import teyder from "./teyder.png";
 import jobit from "./jobit.png";
@@ -84,11 +91,18 @@ export {
   tesla,
   carrent,
   hanaley,
+  scalpers,
+  viena,
+  laartesana,
+  fourdoctors,
   winadream,
   silence,
+  outletpc,
+  gobik,
   teyder,
   kibus,
   calitec,
+  joaquim,
   jobit,
   tripguide,
 };

@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-As a WordPress Developer with 6 years of experience, I design and manage business websites using front-end and back-end development techniques. I excel in creating custom themes and plugins, and I am skilled in agile environments. As an Telecommunications Engineer, I am passionate about technology and continuously seek to expand my knowledge and skills to deliver excellent work.
+As a Full Stack Developer with 6 years of experience, I design and manage business ecommerce and websites using front-end and back-end development techniques. I excel in creating custom themes and plugins, and I am skilled in agile environments. As an Telecommunications Engineer, I am passionate about technology and continuously seek to expand my knowledge and skills to deliver excellent work.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
