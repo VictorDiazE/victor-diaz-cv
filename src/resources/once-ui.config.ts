@@ -74,9 +74,10 @@ const fonts: FontsConfig = {
 // default customization applied to the HTML in the main layout.tsx
 const style: StyleConfig = {
   theme: "dark", // dark | light | system
-  neutral: "custom", // sand | gray | slate | mint | rose | dusk | custom
-  brand: "custom", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
-  accent: "custom", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
+  // "custom" schemes are supported by Once UI CSS but missing from its types
+  neutral: "custom" as unknown as StyleConfig["neutral"], // sand | gray | slate | mint | rose | dusk | custom
+  brand: "custom" as unknown as StyleConfig["brand"], // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
+  accent: "custom" as unknown as StyleConfig["accent"], // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
   solid: "contrast", // color | contrast
   solidStyle: "flat", // flat | plastic
   border: "sharp", // rounded | playful | conservative | sharp

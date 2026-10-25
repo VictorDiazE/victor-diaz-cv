@@ -12,7 +12,7 @@
   --scheme-neutral-1000: #dcd6d3;
   --scheme-neutral-1100: #f5e9df;
   --scheme-neutral-1200: #fff1e8;
-  --scheme-neutral-600-10: rgba(94,96,138,0.1);
+  --scheme-neutral-600-15: rgba(94,96,138,0.15);
   --scheme-neutral-600-30: rgba(94,96,138,0.3);
   --scheme-neutral-600-50: rgba(94,96,138,0.5);
 
@@ -28,7 +28,7 @@
   --scheme-brand-1000: #fff6a8;
   --scheme-brand-1100: #fff8c4;
   --scheme-brand-1200: #fffbe0;
-  --scheme-brand-600-10: rgba(255,163,0,0.1);
+  --scheme-brand-600-15: rgba(255,163,0,0.15);
   --scheme-brand-600-30: rgba(255,163,0,0.3);
   --scheme-brand-600-50: rgba(255,163,0,0.5);
 
@@ -44,7 +44,7 @@
   --scheme-accent-1000: #ffc7dc;
   --scheme-accent-1100: #ffdce9;
   --scheme-accent-1200: #fff0f6;
-  --scheme-accent-600-10: rgba(255,0,77,0.1);
+  --scheme-accent-600-15: rgba(255,0,77,0.15);
   --scheme-accent-600-30: rgba(255,0,77,0.3);
   --scheme-accent-600-50: rgba(255,0,77,0.5);
 
