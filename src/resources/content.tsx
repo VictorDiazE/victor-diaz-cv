@@ -6,7 +6,7 @@ const person: Person = {
   lastName: "Díaz Egurbide",
   name: "Víctor Díaz Egurbide",
   role: "Senior Full-Stack Engineer",
-  avatar: "/images/avatar.jpg",
+  avatar: "/images/avatar.png",
   email: "hi@vdiaz.dev",
   location: "Europe/Madrid", // IANA time zone, used for the local-time badge
   languages: ["Spanish", "English"],
@@ -47,7 +47,12 @@ const home: Home = {
   title: `${person.name} — ${person.role}`,
   description:
     "Senior Full-Stack Engineer in Barcelona. Python and AWS integrations, Shopify Plus, React/Next.js — production systems owned end to end.",
-  headline: <>Production systems, owned end to end</>,
+  headline: (
+    <>
+      Production systems, owned end to end
+      <span className="pixel-cursor" aria-hidden="true" />
+    </>
+  ),
   featured: {
     display: true,
     title: (
