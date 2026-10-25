@@ -61,8 +61,8 @@ img[src$="favicon.ico"] {
 
 /* Hard, offset "sprite" shadow: whole pixels, no blur */
 .pixel-frame {
-  border: 3px solid var(--neutral-on-background-strong);
-  box-shadow: 6px 6px 0 0 var(--brand-solid-strong);
+  border: 3px solid var(--scheme-neutral-1200);
+  box-shadow: 6px 6px 0 0 var(--scheme-brand-800);
   overflow: hidden;
 }
 
@@ -73,7 +73,7 @@ img[src$="favicon.ico"] {
   height: 0.8em;
   margin-left: 0.12em;
   vertical-align: -0.04em;
-  background: var(--brand-solid-strong);
+  background: var(--scheme-brand-800);
   animation: pixel-blink 1.1s steps(1, end) infinite;
 }
 
@@ -91,6 +91,6 @@ img[src$="favicon.ico"] {
 
 /* Keyboard focus as a chunky pixel outline */
 :focus-visible {
-  outline: 3px solid var(--brand-solid-strong) !important;
+  outline: 3px solid var(--scheme-brand-800) !important;
   outline-offset: 3px;
 }
