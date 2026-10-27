@@ -50,7 +50,7 @@ export const projects: Project[] = [
       aria: { en: "Feeds to ingest Lambda to SQS to worker Lambdas to stores", es: "Feeds a Lambda de ingesta, a SQS, a Lambdas worker y a las tiendas" },
     },
     caseStudy: {
-      role: { en: "Architect and tech lead", es: "Arquitecto y tech lead" },
+      role: { en: "Architecture and delivery owner", es: "Responsable de arquitectura y entrega" },
       context: { en: "Rocket Digital, enterprise clients", es: "Rocket Digital, clientes enterprise" },
       scope: { en: "5 integrations · EU and MENA", es: "5 integraciones · EU y MENA" },
       lede: {

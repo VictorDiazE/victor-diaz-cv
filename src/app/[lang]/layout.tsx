@@ -1,7 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import { Archivo, JetBrains_Mono } from "next/font/google";
-import { LANGS, SITE_URL, getDict, isLang } from "@/lib/i18n";
+import { LANGS, SITE_URL, EMAIL, getDict, isLang } from "@/lib/i18n";
+import { AskDock } from "@/components/AskPortfolio";
 import "./globals.css";
 
 const sans = Archivo({ subsets: ["latin"], axes: ["wdth"], variable: "--font-sans", display: "swap" });
@@ -48,6 +49,7 @@ export default async function RootLayout({ children, params }: { children: React
       <body>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(person) }} />
         {children}
+        <AskDock text={getDict(lang).ask} lang={lang} email={EMAIL} />
       </body>
     </html>
   );

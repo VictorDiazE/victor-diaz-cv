@@ -4,7 +4,7 @@ import { projects } from "@/lib/projects";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { Pipeline, NeuralIcon } from "@/components/Pipeline";
-import { AskPortfolio } from "@/components/AskPortfolio";
+import { AskPortfolio, AskTrigger } from "@/components/AskPortfolio";
 import { ProjectCard } from "@/components/ProjectCard";
 import { Sparkle } from "@/components/icons";
 
@@ -18,7 +18,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     <>
       <Nav lang={lang} altPath="/" />
       <main>
-        <section aria-labelledby="hero-h">
+        <section aria-labelledby="hero-h" className="hero-glow">
           <div className="container" style={{ paddingTop: 40, paddingBottom: 56 }}>
             <div className="hero-top">
               <p className="mono muted" style={{ fontSize: 13, lineHeight: "22px" }}>
@@ -71,7 +71,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           </div>
         </section>
 
-        <section id="ai" aria-labelledby="ai-h" className="border-t dots-bg">
+        <section id="ai" aria-labelledby="ai-h" className="sec-ai">
           <div className="container section">
             <div className="section-head">
               <h2 id="ai-h" className="h2 wide">
@@ -91,9 +91,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                   <h3 className="semi">{c.title}</h3>
                   <p>{c.body}</p>
                   {i === 2 && (
-                    <a href="#ask" className="mono" style={{ fontSize: 14, marginTop: "auto" }}>
-                      {t.ai.tryIt}
-                    </a>
+                    <AskTrigger className="link-btn mono">{t.ai.tryIt} →</AskTrigger>
                   )}
                 </div>
               ))}
@@ -101,7 +99,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           </div>
         </section>
 
-        <section id="about" aria-labelledby="about-h" className="border-t">
+        <section id="about" aria-labelledby="about-h" className="theme-light">
           <div className="container section about">
             <h2 id="about-h" className="h2 wide" style={{ alignSelf: "flex-start" }}>
               {t.about.title}

@@ -3,7 +3,7 @@ import { type Lang, getDict, EMAIL, GITHUB, LINKEDIN } from "@/lib/i18n";
 export function Footer({ lang }: { lang: Lang }) {
   const t = getDict(lang);
   return (
-    <footer id="contact" className="border-t">
+    <footer id="contact" className="sec-footer">
       <div className="container footer">
         <a href={`mailto:${EMAIL}`} className="big wide">
           {EMAIL}

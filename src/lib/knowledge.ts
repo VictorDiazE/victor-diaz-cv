@@ -18,23 +18,24 @@ export const SOURCES: Source[] = [
 
 export const KNOWLEDGE = `
 [summary]
-Víctor Díaz Egurbide is a Senior Full-Stack Engineer based in Barcelona, Spain, with 8+ years designing and owning production systems end to end. Particular depth in Python backend architecture and cloud integrations at enterprise scale. Postgraduate in Artificial Intelligence with Deep Learning (UPC School). Languages: Spanish (native), English (professional working proficiency). Open to Tech Lead, Solutions Architect and senior product engineering roles. Contact: hi@vdiaz.dev.
+Víctor Díaz Egurbide is a Senior Full-Stack Engineer based in Barcelona, Spain, with 8+ years designing and owning production systems end to end. Particular depth in Python backend architecture and cloud integrations at enterprise scale. Postgraduate in Artificial Intelligence with Deep Learning (UPC School). Languages: Spanish (native), English (professional working proficiency). Open to Solutions Architect and senior product engineering roles. Contact: hi@vdiaz.dev.
 
 [rocket]
-Senior Full-Stack Engineer / Tech Lead at Rocket Digital, Barcelona (a Shopify Premier Partner agency), 2021 to present.
+Senior Full-Stack Engineer at Rocket Digital, Barcelona (a Shopify Premier Partner agency), 2021 to present.
 - Architected and led 5 enterprise-scale system integrations in Python on AWS Lambda, with catalog and data processing pipelines via SQS, handling high-volume, multi-market, multi-language data flows in production.
-- Technical lead on 30+ production systems for enterprise brands across the EU and MENA, owning architecture decisions end to end, from cloud infrastructure to front-end delivery.
+- Owned architecture on 30+ production systems for enterprise brands across the EU and MENA, owning architecture decisions end to end, from cloud infrastructure to front-end delivery.
 - Owns CI/CD pipelines (GitHub Actions), technical standards and code quality across the engineering team's project base.
 - Built full-stack applications with React, Next.js and TypeScript on the front end and Node.js and Python back ends, including custom logic on transactional and payment flows.
 - Introduced AI-assisted engineering workflows (Cursor, MCP, n8n) into the delivery process, reducing repetitive engineering time across the team.
 
 [earlier]
-- PHP Full Stack Developer at Factoria Creativa, Barcelona (2021): e-commerce sites, custom themes and plugins from scratch; client communication and project management through delivery.
-- PHP Developer at Slice Group, Venezuela (2017 – 2019): technical SEO, diagnosing and resolving platform issues, WordPress sites, themes and plugins.
+- Full Stack Developer (PHP) at Factoria Creativa, Barcelona (2021): e-commerce sites, custom themes and plugins from scratch; client communication and project management through delivery.
+- Web Developer (PHP, WordPress) at Slice Group, Venezuela (2017 – 2019): technical SEO, diagnosing and resolving platform issues, WordPress sites, themes and plugins.
 
 [stack]
 Backend and cloud: Python, FastAPI, Node.js, AWS Lambda, SQS, Docker, CI/CD with GitHub Actions, REST, GraphQL.
 Frontend: React, Next.js, TypeScript, Shopify Hydrogen.
+Other languages: PHP (WordPress themes and plugins).
 AI and automation: LangChain, PyTorch, Cursor, MCP, n8n.
 E-commerce: Shopify Plus, Liquid, Checkout UI Extensions, Shopify Functions.
 Growth: GA4, GTM, technical SEO.
