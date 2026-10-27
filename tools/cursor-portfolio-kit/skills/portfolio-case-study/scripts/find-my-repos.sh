@@ -53,9 +53,11 @@ done
   echo
   echo "| repo | commits | share | PRs | reviews | first | last | language |"
   echo "|---|---:|---:|---:|---:|---|---|---|"
-  [ "${#rows[@]}" -gt 0 ] && printf '%s\n' "${rows[@]}" | sort -t'|' -k1,1nr | while IFS='|' read -r n R share prs revs first last lang; do
-    echo "| $R | $n | $share% | $prs | $revs | $first | $last | $lang |"
-  done
+  if [ "${#rows[@]}" -gt 0 ]; then
+    printf '%s\n' "${rows[@]}" | sort -t'|' -k1,1nr | while IFS='|' read -r n R share prs revs first last lang; do
+      echo "| $R | $n | $share% | $prs | $revs | $first | $last | $lang |"
+    done
+  fi
 } > "$OUT"
 
 echo "✓ $OUT" >&2
