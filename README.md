@@ -1,32 +1,24 @@
-# vdiaz.dev
+# vdiaz.dev — v3
 
-Personal portfolio of **Víctor Díaz Egurbide** — Senior Full-Stack Engineer (Python & AWS, Shopify Plus, React/Next.js), Barcelona.
+Personal portfolio of Víctor Díaz Egurbide. Next.js 16 (App Router), no UI kit, dark theme, EN at `/`, ES at `/es`.
 
-Live: https://vdiaz.dev
+## What's in it
+- **Interactive pipeline** (`src/components/Pipeline.tsx`): a labelled simulation of the ingest → SQS → workers → markets pattern. *Send a burst* / *Break a worker*.
+- **Case studies with scroll narrative** (`src/app/[lang]/work/[slug]`, data in `src/lib/projects.ts`).
+- **Ask my portfolio** (`src/app/api/ask/route.ts`): closed-context agent over `src/lib/knowledge.ts`, cites sources, rate-limited.
+- **Recruiter TL;DR** dialog + one-page CV at `public/cv/`.
+- Dynamic OG image, sitemap, robots, JSON-LD.
 
-## Stack
+## Env vars (Vercel)
+| Var | Required | Notes |
+| --- | --- | --- |
+| `ANTHROPIC_API_KEY` | for the agent | without it `/api/ask` returns 503 and the UI falls back to email |
+| `ANTHROPIC_MODEL` | no | defaults to `claude-haiku-5-5` |
 
-- Next.js 16 (App Router) + React 19, TypeScript
-- MDX content for projects (`src/app/work/projects/*.mdx`)
-- Once UI design system
-- Deployed on Vercel
-
-## Editing content
-
-| What | Where |
-| --- | --- |
-| Name, headline, experience, skills, studies, social links | `src/resources/content.tsx` |
-| Domain, enabled routes, theme, SEO schema | `src/resources/once-ui.config.ts` |
-| Projects / case studies | one `.mdx` file per project in `src/app/work/projects/` |
-| Images | `public/images/` (WebP, 1600×900 for project covers) |
-
+## Dev
 ```bash
 npm install
-npm run dev   # http://localhost:3000
+npm run dev
 ```
 
-## Credits & license
-
-Based on [Magic Portfolio](https://github.com/once-ui-system/magic-portfolio) by [Once UI](https://once-ui.com), licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). This site is a modified version (content, theme, icons and routes changed). The original license is kept in `LICENSE` and applies to the template code.
-
-The previous version of this site (Vite + React Three Fiber) lives in the `main` branch history.
+Content rule: only facts that appear in the CV. No invented metrics.

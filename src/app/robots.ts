@@ -1,12 +1,6 @@
-import { baseURL } from "@/resources";
+import type { MetadataRoute } from "next";
+import { SITE_URL } from "@/lib/i18n";
 
-export default function robots() {
-  return {
-    rules: [
-      {
-        userAgent: "*",
-      },
-    ],
-    sitemap: `${baseURL}/sitemap.xml`,
-  };
+export default function robots(): MetadataRoute.Robots {
+  return { rules: [{ userAgent: "*", allow: "/", disallow: "/api/" }], sitemap: `${SITE_URL}/sitemap.xml` };
 }
